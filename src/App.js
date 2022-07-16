@@ -5,9 +5,12 @@ import Comment from "./Comment";
 function App() {
   return (
     <div>
-      <Article />
-      <Comment />
+      <Article/>
+      <div>Dear Reader: Bjarne Stroustrup has the perfect lecture oration.</div>
+      <Comment/>
+      <div>Naturally, I agree with this article.</div>
     </div>
+  
   );
 }
 
